@@ -1,8 +1,8 @@
-export function Genero({ children ,parametro1}){
+export function Genero({ children ,id}){
   return(
-    <div class="col-lg-6 mb-4" id={parametro1}>
-      <div class="card bg-info text-white shadow">
-        <div class="card-body">
+    <div className="col-lg-6 mb-4" id={id}>
+      <div className="card bg-info text-white shadow">
+        <div className="card-body">
         {children}
         </div>
       </div>

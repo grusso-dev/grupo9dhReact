@@ -5,6 +5,7 @@ import './App.css'
 import { Generos } from './components/generos/generos'
 import { Kpi } from './components/kpi/kpi'
 
+
 function App() {
   const [count, setCount] = useState(0)
   return (
@@ -98,7 +99,7 @@ function App() {
 
                     <div className="row">
                       <div className="col-md-4 mb-4">
-                      <Kpi cantidad='18' >Cantidad de conciertos</Kpi>
+                      <Kpi  cantidad='18' >Cantidad de conciertos</Kpi>
                       </div>
 
                       <div className="col-md-4 mb-4">
