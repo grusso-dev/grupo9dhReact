@@ -4,14 +4,14 @@ import { Genero } from '../genero/genero.jsx'
 
 export function Generos({ children, cant }) {
   const [generos, setGeneros] = useState([]);
-
+  
   useEffect(() => {
-    // fetch('http://localhost:3000/api/generos')
-    fetch('https://jsonplaceholder.typicode.com/todos')
-    .then(response => response.json())
-    .then(json => console.log(json))
+    fetch('http://localhost:3000/api/generos')
+      .then((res) => { res.json })
+      .then((data) => { 
+        setGeneros(data);
+      })
   }, []);
-
 
   return (
     <div className="col-lg-6 mb-4">
@@ -22,18 +22,18 @@ export function Generos({ children, cant }) {
         <div className="card-body">
           <div className="row">
             {
-              generos.map((genero) => {
-                <Genero id={genero.id}>{genero.description}</Genero>
-              })
+              // generos.map((genero, index) => {
+              //   <Genero id={index}>{genero.description}</Genero>
+              // })
             }
-            {/*             
-              <Genero id='pepe'>Genero 1</Genero>
-              <Genero>Genero 2</Genero>
-              <Genero>Genero 3</Genero>
-              <Genero>Genero 4</Genero>
-              <Genero>Genero 5</Genero>
-              <Genero>Genero 6</Genero>
-            */}
+            
+            <Genero id='pepe'>Genero 1</Genero>
+            <Genero>Genero 2</Genero>
+            <Genero>Genero 3</Genero>
+            <Genero>Genero 4</Genero>
+            <Genero>Genero 5</Genero>
+            <Genero>Genero 6</Genero>
+           
 
 
             {generos}
