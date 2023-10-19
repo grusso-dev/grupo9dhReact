@@ -99,7 +99,7 @@ function App() {
 
                     <div className="row">
                       <div className="col-md-4 mb-4">
-                      <Kpi  cantidad='18' >Cantidad de conciertos</Kpi>
+                      <Kpi  url='http://localhost:3000/api/totalconcert'>Cantidad de conciertos</Kpi>
                       </div>
 
                       <div className="col-md-4 mb-4">
@@ -118,7 +118,7 @@ function App() {
                           </div>
                         </div>
                         */}
-                        <Kpi cantidad='20' >Cantidad de generos</Kpi>
+                        <Kpi url='http://localhost:3000/api/totalgeneros' >Cantidad de generos</Kpi>
                       </div>
 
                       <div className="col-md-4 mb-4">
@@ -137,7 +137,7 @@ function App() {
                           </div>
                         </div>
                         */}
-                        <Kpi cantidad='50' >Cantidad de usuarios</Kpi>
+                        <Kpi url='http://localhost:3000/api/totalusers' >Cantidad de usuarios</Kpi>
                       </div>
                     </div>
 

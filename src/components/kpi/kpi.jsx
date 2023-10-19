@@ -1,4 +1,16 @@
-export function Kpi({ children ,cantidad}){
+import { useEffect, useState } from 'react'
+export function Kpi({ children ,url}){
+
+
+  const [cantidad, setCantidad] = useState(null);
+  
+  useEffect(() => {
+    fetch(url)
+      .then((res) => res.json() )
+      .then((json) => { 
+        setCantidad(json.catidad);
+      })
+  }, []);
   
 
   return(
