@@ -42,14 +42,6 @@ export function Generos({ children }) {
                 )
               })
             }
-{/*             
-<Genero id='pepe'>Genero 1</Genero>
-<Genero>Genero 2</Genero>
-<Genero>Genero 3</Genero>
-<Genero>Genero 4</Genero>
-<Genero>Genero 5</Genero>
-<Genero>Genero 6</Genero>
-*/}
           </div>
         </div>
       </div>
