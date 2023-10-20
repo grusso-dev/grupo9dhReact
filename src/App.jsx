@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Generos } from './components/generos/generos'
 import { Kpi } from './components/kpi/kpi'
+import { Ultimo } from './components/ultimo/ultimo'
 
 
 function App() {
@@ -103,58 +104,18 @@ function App() {
                       </div>
 
                       <div className="col-md-4 mb-4">
-                        {/* 
-                        <div className="card border-left-success shadow h-100 py-2">
-                          <div className="card-body">
-                            <div className="row no-gutters align-items-center">
-                              <div className="col mr-2">
-                                <div className="text-xs font-weight-bold text-success text-uppercase mb-1"> Cantidad de generos (Viky) </div>
-                                <div className="h5 mb-0 font-weight-bold text-gray-800">$546.456</div>
-                              </div>
-                              <div className="col-auto">
-                                <i className="fas fa-dollar-sign fa-2x text-gray-300"></i>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        */}
                         <Kpi url='http://localhost:3000/api/totalgeneros' >Cantidad de generos</Kpi>
                       </div>
 
                       <div className="col-md-4 mb-4">
-                        {/*
-                        <div className="card border-left-warning shadow h-100 py-2">
-                          <div className="card-body">
-                            <div className="row no-gutters align-items-center">
-                              <div className="col mr-2">
-                                <div className="text-xs font-weight-bold text-warning text-uppercase mb-1">Cantidad de usuarios (Viky)  </div>
-                                <div className="h5 mb-0 font-weight-bold text-gray-800">38</div>
-                              </div>
-                              <div className="col-auto">
-                                <i className="fas fa-user-check fa-2x text-gray-300"></i>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        */}
                         <Kpi url='http://localhost:3000/api/totalusers' >Cantidad de usuarios</Kpi>
                       </div>
                     </div>
 
                     <div className="row">
                       <div className="col-lg-6 mb-4">
-                        <div className="card shadow mb-4">
-                          <div className="card-header py-3">
-                            <h6 className="m-0 font-weight-bold text-primary">Ultimo concierto creado (Eze) </h6>
-                          </div>
-                          <div className="card-body">
-                            <div className="text-center">
-                              <img className="img-fluid px-3 px-sm-4 mt-3 mb-4" Style="width: 25rem;" src="assets/images/product_dummy.svg" alt="image dummy"/>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, consequatur explicabo officia inventore libero veritatis iure voluptate reiciendis a magnam, vitae, aperiam voluptatum non corporis quae dolorem culpa exercitationem ratione?</p>
-                            <a target="_blank" rel="nofollow" href="/">View product detail</a>
-                          </div>
-                        </div>
+                        <Ultimo></Ultimo>
+                        
                       </div>
                       <Generos cant='10'> Generos</Generos>
                     </div>
