@@ -100,15 +100,15 @@ function App() {
 
                     <div className="row">
                       <div className="col-md-4 mb-4">
-                      <Kpi  url='http://localhost:3000/api/totalconcert'>Cantidad de conciertos</Kpi>
+                      <Kpi  url='https://soundstage.onrender.com/api/totalconcert'>Cantidad de conciertos</Kpi>
                       </div>
 
                       <div className="col-md-4 mb-4">
-                        <Kpi url='http://localhost:3000/api/totalgeneros' >Cantidad de generos</Kpi>
+                        <Kpi url='https://soundstage.onrender.com/api/totalgeneros' >Cantidad de generos</Kpi>
                       </div>
 
                       <div className="col-md-4 mb-4">
-                        <Kpi url='http://localhost:3000/api/totalusers' >Cantidad de usuarios</Kpi>
+                        <Kpi url='https://soundstage.onrender.com/api/totalusers' >Cantidad de usuarios</Kpi>
                       </div>
                     </div>
 

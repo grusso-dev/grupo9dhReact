@@ -6,7 +6,7 @@ export function Generos({ children }) {
   const [generos, setGeneros] = useState([]);
   
   useEffect(() => {
-    fetch('http://localhost:3000/api/generos')
+    fetch('https://soundstage.onrender.com/api/generos')
       .then((res) => res.json() )
       .then((json) => { 
         let generosAdd=[]

@@ -3,7 +3,7 @@ export function Ultimo({ children }){
   const [ultimo, setConcierto] = useState({image:'',artista:'',id:'',name:''});
   
   useEffect(() => {
-    fetch('http://localhost:3000/api/ultimoconcert')
+    fetch('https://soundstage.onrender.com/api/ultimoconcert')
       .then((res) => res.json() )
       .then((json) => { 
         console.log(json.ultimo)
