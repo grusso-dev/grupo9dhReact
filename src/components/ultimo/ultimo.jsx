@@ -24,7 +24,7 @@ export function Ultimo({ children }){
         </div>
 
         <p><strong>{ultimo.artista}:</strong> {ultimo.name}</p>
-        <a target="_blank" rel="nofollow" href={ 'http://localhost:3000/conciertos/detail/' + ultimo.id} >ver concierto</a>
+        <a target="_blank" rel="nofollow" href={ 'https://soundstage.onrender.com/conciertos/detail/' + ultimo.id} >ver concierto</a>
       </div>
     </div>
   );
