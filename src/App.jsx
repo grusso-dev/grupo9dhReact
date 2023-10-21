@@ -84,8 +84,8 @@ function App() {
                       <div className="topbar-divider d-none d-sm-block"></div>
                       <li className="nav-item dropdown no-arrow">
                         <a className="nav-link dropdown-toggle" href="/" id="userDropdown">
-                          <span className="mr-2 d-none d-lg-inline text-gray-600 small">Walter White</span>
-                          <img className="img-profile rounded-circle" src="assets/images/dummy-avatar.jpg" width="60"/>
+                          <span className="mr-2 d-none d-lg-inline text-gray-600 small">Ikki Phoenix</span>
+                          <img className="img-profile rounded-circle" src="https://th.bing.com/th/id/R.678b9711eca17f99f73144eab29742fd?rik=a5y%2bAk7CY4rczw&pid=ImgRaw&r=0" width="60"/>
                         </a>
                       </li>
 
@@ -95,7 +95,7 @@ function App() {
                   <div className="container-fluid">
 
                     <div className="d-sm-flex align-items-center justify-content-between mb-4">
-                      <h1 className="h3 mb-0 text-gray-800">App Dashboard</h1>
+                      <h1 className="h3 mb-0 text-gray-800">Soundstage Dashboard</h1>
                     </div>
 
                     <div className="row">
@@ -114,7 +114,7 @@ function App() {
 
                     <div className="row">
                       <div className="col-lg-6 mb-4">
-                        <Ultimo></Ultimo>
+                      <Ultimo></Ultimo>
                         
                       </div>
                       <Generos cant='10'> Generos</Generos>

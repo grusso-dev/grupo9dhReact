@@ -20,7 +20,7 @@ export function Ultimo({ children }){
       </div>
       <div className="card-body">
         <div className="text-center">
-          <img className="img-fluid px-3 px-sm-4 mt-3 mb-4" Style="width: 25rem;" src={"https://linsock.com.ar/soundstage/public/images/" + ultimo.image  } alt="image dummy"/>
+          <img className="img-fluid px-3 px-sm-4 mt-3 mb-4" src={"https://linsock.com.ar/soundstage/public/images/" + ultimo.image  } alt="image dummy"/>
         </div>
 
         <p><strong>{ultimo.artista}:</strong> {ultimo.name}</p>
